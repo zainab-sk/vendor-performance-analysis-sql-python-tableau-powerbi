@@ -1,6 +1,6 @@
 # 📦 Vendor Performance Analysis - Retail Inventory & Sales
 
-Analyzing vendor efficiency and profitability to support strategic purchasing and inventory decisions using **SQL**, **Python**, and **Power BI**.
+Analyzing vendor efficiency and profitability to support strategic purchasing and inventory decisions using **SQL**, **Python**,**Tableau** and **Power BI**.
 
 ---
 
@@ -26,7 +26,7 @@ This project evaluates vendor performance and retail inventory dynamics to drive
 
 - **SQL** for data extraction and transformation
 - **Python** for cleaning, analysis, and statistical testing
-- **Power BI** for interactive dashboards
+- **Power BI**,**Tableau** for interactive dashboards
 
 ---
 
@@ -56,7 +56,7 @@ Effective inventory and sales management are critical in the retail sector. This
 | ---------------------------------- | ---------------------------------------------- |
 | SQL                                | Data ingestion, joins, filtering, CTEs         |
 | Python                             | Data cleaning, EDA, hypothesis testing         |
-| Power BI                           | Interactive dashboards and visual storytelling |
+| Power BI, Tableau                  | Interactive dashboards and visual storytelling |
 | GitHub                             | Version control and collaboration              |
 | Jupyter                            | Notebooks for EDA and modeling                 |
 | Pandas, Seaborn, Matplotlib, SciPy | Data wrangling and visualization               |
@@ -129,7 +129,7 @@ vendor-performance-analysis/
 
 ## 📊 Dashboard
 
-- Power BI Dashboard shows:
+- Tableau and Power BI Dashboard shows:
 - Vendor-wise Sales and Margins
 - Inventory Turnover
 - Bulk Purchase Savings
@@ -162,7 +162,7 @@ vendor-performance-analysis/
 - `notebooks/exploratory_data_analysis.ipynb`
 - `notebooks/vendor_performance_analysis.ipynb`
 
-5. Open Power BI Dashboard:
+5. Open Tableau Dashboard:
 
 - `dashboard/vendor_performance_dashboard.twbx`
 
