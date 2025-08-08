@@ -67,9 +67,10 @@ Effective inventory and sales management are critical in the retail sector. This
 
 ```plaintext
 vendor-performance-analysis/
-├── data/                               # Raw CSV data files
+├── data/                               # Raw CSV data files link
 ├── dashboard/
 │   └── vendor_performance_dashboard.pbix
+│   └── vendor_performance_dashboard.twbx
 ├── notebooks/
 │   ├── exploratory_data_analysis.ipynb
 │   └── vendor_performance_analysis.ipynb
@@ -83,7 +84,7 @@ vendor-performance-analysis/
 └── README.md
 ```
 
-## Data Cleaning & Preparation
+## 🧹 Data Cleaning & Preparation
 
 - Removed transactions with:
 - Gross Profit 30
@@ -105,7 +106,9 @@ vendor-performance-analysis/
 
 - High Freight Costs (up to 257K)
 - Large Purchase/Actual Prices
+
   **Correlation Analysis:**
+
 - Weak between Purchase Price & Profit
 - Strong between Purchase Qty & Sales Qty (0.999)
 - Negative between Profit Margin & Sales Price (-0.179)
@@ -135,9 +138,15 @@ vendor-performance-analysis/
 - Bulk Purchase Savings
 - Performance Heatmaps
 
-![Vendor Performance Dashboard](images/dashboard.png)
+### Power BI Dashboard
 
-## How to Run This Project
+![Vendor Performance Dashboard](images/dashboard_powerbi.png)
+
+### Tableau Dashboard
+
+![Vendor Performance Dashboard](images/dashboard_tableau.png)
+
+## ⚙️ How to Run This Project
 
 1. Clone the repository:
 
@@ -162,13 +171,14 @@ vendor-performance-analysis/
 - `notebooks/exploratory_data_analysis.ipynb`
 - `notebooks/vendor_performance_analysis.ipynb`
 
-5. Open Tableau Dashboard:
+5. Open Tableau or PowerBi Dashboard:
 
 - `dashboard/vendor_performance_dashboard.twbx`
+- `dashboard/vendor_performance_dashboard.pbix`
 
 ---
 
-## Final Recommendations
+## ✅ Final Recommendations
 
 - Diversify vendor base to reduce risk
 - Optimize bulk order strategies
@@ -178,8 +188,8 @@ vendor-performance-analysis/
 
 ## Author & Contact
 
-**Zainab Shaikh**
-Data Analyst
-✉️ Email: zainab.sd03@gmail.com
-🔗 [LinkedIn] (https://www.linkedin.com/in/zainab-shaikh-19o3/)
+**Zainab Shaikh** <br>
+Data Analyst <br>
+✉️ Email: zainab.sd03@gmail.com<br>
+🔗 [LinkedIn] (https://www.linkedin.com/in/zainab-shaikh-19o3/)<br>
 🔗 [Portfolio] (https://zainabskportfolio.netlify.app/)
