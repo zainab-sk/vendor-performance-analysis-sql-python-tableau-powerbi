@@ -140,7 +140,7 @@ vendor-performance-analysis/
 
 ### Power BI Dashboard
 
-![Vendor Performance Dashboard](images/dashboard_powerbi.png)
+![Vendor Performance Dashboard](images/dashboard_powerbi.jpeg)
 
 ### Tableau Dashboard
 
